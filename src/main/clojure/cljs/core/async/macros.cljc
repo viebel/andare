@@ -1,5 +1,5 @@
 (ns cljs.core.async.macros
-  (:require-macros [cljs.core.async.impl.ioc-macros-runtime :refer [async-custom-terminators state-machine]])
+  (:require [cljs.core.async.impl.ioc-macros-runtime :refer [async-custom-terminators state-machine]])
   (#?(:clj :require :cljs :require-macros) [cljs.core.async.impl.ioc-macros :refer [aset-all!]]))
 
 (defmacro go
